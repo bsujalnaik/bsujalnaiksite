@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Sujal SN developer favicon">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="256" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffb347"/>
+      <stop offset="1" stop-color="#ff8c2b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- circular background to work on light UIs; fill can be changed via CSS -->
+  <circle cx="128" cy="128" r="120" fill="#0f1b2a"/>
+
+  <!-- code brackets -->
+  <g fill="none" stroke="url(#accent)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M84 128l-40-18 40-18"/>
+    <path d="M172 128l40-18-40-18"/>
+  </g>
+
+  <!-- forward-slash accent -->
+  <path d="M140 86l-24 84" fill="none" stroke="url(#accent)" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- minimal circuit lines -->
+  <g fill="none" stroke="url(#accent)" stroke-width="6" stroke-linecap="round">
+    <path d="M40 146h72"/>
+    <circle cx="40" cy="146" r="6" fill="url(#accent)"/>
+    <path d="M144 146h72"/>
+    <circle cx="216" cy="146" r="6" fill="url(#accent)"/>
+  </g>
+
+  <!-- SN monogram -->
+  <g font-family="'Segoe UI', 'Inter', system-ui, -apple-system, sans-serif" font-weight="800" font-size="56" text-anchor="middle" dominant-baseline="middle">
+    <text x="116" y="120" fill="#ffffff" letter-spacing="1">S</text>
+    <text x="156" y="136" fill="#ffffff" letter-spacing="1">N</text>
+  </g>
+</svg>
+
